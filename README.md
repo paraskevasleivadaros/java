@@ -1,2 +1,2 @@
 # java
-a simple website about learning java using plain HTML, CSS, JavaScript
+A simple website about learning java using plain HTML, CSS, JavaScript
