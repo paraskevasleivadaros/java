@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Learn Java</title>
+    <style>
+        /* Light Theme */
+        body {
+            background-color: white;
+            color: black;
+        }
+        /* Dark Theme */
+        .dark-theme {
+            background-color: black;
+            color: white;
+        }
+        /* Navigation Menu */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #f1f1f1;
+        }
+        nav a {
+            color: black;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="#introduction">Introduction</a>
+      <a href="#basics">Basics</a>
+      <a href="#intermediate">Intermediate</a>
+      <a href="#advanced">Advanced</a>
+      <button id="toggle-theme">Toggle Theme</button>
+    </nav>
+    <div class="container">
+      <section id="introduction">
+        <h2>Introduction to Java</h2>
+        <p>Learn about the history and basics of the Java programming language.</p>
+      </section>
+      <section id="basics">
+        <h2>Java Basics</h2>
+        <p>Learn about variables, data types, and control flow in Java.</p>
+      </section>
+      <section id="intermediate">
+        <h2>Intermediate Java</h2>
+        <p>Learn about object-oriented programming, exceptions, and more advanced topics in Java.</p>
+      </section>
+      <section id="advanced">
+        <h2>Advanced Java</h2>
+        <p>Learn about generics, concurrency, and other advanced topics in Java.</p>
+      </section>
+    </div>
+    <script>
+        const toggleButton = document.getElementById('toggle-theme');
+        toggleButton.addEventListener('click', function() {
+            const body = document.querySelector('body');
+            body.classList.toggle('dark-theme');
+        });
+    </script>
+  </body>
+</html>
