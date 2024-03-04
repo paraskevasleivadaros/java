@@ -7,5 +7,5 @@ A simple website about learning Java ☕
 
 This is a simple webpage that provides an outline for learning the Java programming language. The webpage has four sections: Introduction, Basics, Intermediate and Advanced. Each section provides an overview of the topics that will be covered in that section. The webpage also has a navigation menu with links to each section. Additionally, there is a toggle button that when clicked switches between light and dark theme. The theme is changed by adding or removing a class called "dark-theme" from the body element using JavaScript.
 
-## Copyright & License
-[MIT](https://github.com/paraskevasleivadaros/java/blob/master/LICENSE)
+## 🛠️ Tech Stack
+[![GitHub Actions](https://skills.thijs.gg/icons?i=githubactions)](https://github.com/features/actions)
